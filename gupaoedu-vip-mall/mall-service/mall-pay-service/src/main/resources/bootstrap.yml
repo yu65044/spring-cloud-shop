@@ -1,0 +1,70 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: mall-pay
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.130:3306/shop_pay?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+  main:
+    allow-bean-definition-overriding: true
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 600000
+
+# ====================MybatisPlus====================
+mybatis-plus:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.gupaoedu.vip.mall.*.model
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#日志配置
+logging:
+  pattern:
+    console: "%msg%n"
+
+#producer
+rocketmq:
+  name-server: 192.168.100.130:9876
+  producer:
+    group: pay-group
+    send-message-timeout: 300000
+    compress-message-body-threshold: 4096
+    max-message-size: 4194304
+    retry-times-when-send-async-failed: 0
+    retry-next-server: true
+    retry-times-when-send-failed: 2
+
+#支付配置
+payconfig:
+  weixin:
+    #应用ID
+    appId: wx9f1fa58451efa9b2
+    #商户ID号
+    mchID: 157请自行申请561
+    #秘钥
+    key: QS8rrOI出于安全考虑，请自行申请TQCfI1
+    #默认回调地址
+    notifyUrl: http://2cw4969042.wicp.vip:50381/wx/result
+    #证书存储路径
+    certPath: D:/alibaba/dev/shop/gupaoedu-vip-mall/mall-service/mall-pay-service/src/main/resources/apiclient_cert.p12
+  #支付安全校验(验签)
+  aes:
+    #AES加密秘钥
+    skey: ab2cc473d3334c39
+    #验签盐
+    salt: XPYQZb1kMES8HNaJWW8+TDu/4JdBK4owsU9eXCXZDOI=

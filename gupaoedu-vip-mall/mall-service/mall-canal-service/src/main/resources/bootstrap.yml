@@ -1,0 +1,34 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: mall-canal
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+  main:
+    allow-bean-definition-overriding: true
+#Canal配置
+canal:
+  server: 192.168.100.130:11111
+  destination: example
+#日志配置
+logging:
+  pattern:
+    console: "%msg%n"
+  level:
+    root: error
+
+elaticjob:
+  zookeeper:
+    server-lists: 127.0.0.1:2181
+    namespace: synctask
+
+#动态定时任务案例
+dynamiczk: 127.0.0.1:2181
+dynamicnamespace: dynamictask

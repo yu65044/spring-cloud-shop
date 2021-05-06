@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/gupaoedu-vip-mall.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/gupaoedu-vip-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-gateway/mall-api-gateway/mall-api-gateway.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-gateway/mall-api-gateway/mall-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-canal-service/mall-canal-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-canal-service/mall-canal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-cart-api/mall-cart-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-cart-api/mall-cart-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-cart-service/mall-cart-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-cart-service/mall-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-dw-api/mall-dw-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-dw-api/mall-dw-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-dw-service/mall-dw-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-dw-service/mall-dw-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-file-service/mall-file-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-file-service/mall-file-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-gateway/mall-gateway.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-gateway/mall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-goods-api/mall-goods-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-goods-api/mall-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-goods-service/mall-goods-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-goods-service/mall-goods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-order-api/mall-order-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-order-api/mall-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-order-service/mall-order-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-order-service/mall-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-page-api/mall-page-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-page-api/mall-page-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-page-web/mall-page-web.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-page-web/mall-page-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-pay-api/mall-pay-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-pay-api/mall-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-pay-service/mall-pay-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-pay-service/mall-pay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-permission-api/mall-permission-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-permission-api/mall-permission-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-permission-service/mall-permission-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-permission-service/mall-permission-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-search-api/mall-search-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-search-api/mall-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-search-service/mall-search-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-search-service/mall-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-search-web/mall-search-web.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-search-web/mall-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-seckill-api/mall-seckill-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-seckill-api/mall-seckill-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-seckill-service/mall-seckill-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-seckill-service/mall-seckill-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-service-dependency/mall-service-dependency.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-service-dependency/mall-service-dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-user-api/mall-user-api.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-user-api/mall-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-user-service/mall-user-service.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-user-service/mall-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-util.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-web.iml" filepath="$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shop.iml" filepath="$PROJECT_DIR$/.idea/shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-json/swagger-json.iml" filepath="$PROJECT_DIR$/swagger-json/swagger-json.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-cart-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-dw-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-goods-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-order-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-page-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-permission-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-search-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-seckill-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-api/mall-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-gateway/mall-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-canal-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-dw-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-file-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-goods-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-pay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-permission-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-seckill-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-service/mall-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-util/mall-service-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-page-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupaoedu-vip-mall/mall-web/mall-search-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

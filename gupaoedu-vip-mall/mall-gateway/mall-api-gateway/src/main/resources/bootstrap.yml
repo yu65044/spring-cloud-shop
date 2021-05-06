@@ -1,0 +1,78 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    sentinel:
+      transport:
+        #服务本地端口，实现当前服务和Sentinel控制台通信的端口，推送规则
+        port: 8719
+        dashboard: 192.168.100.130:8858
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+    gateway:
+      routes:
+        #秒杀
+        - id: seckill_route
+          uri: lb://mall-seckill
+          predicates:
+            - Path=/mall/seckill/order/**
+          filters:
+            - StripPrefix=1
+        #购物车
+        - id: cart_route
+          uri: lb://mall-cart
+          predicates:
+            - Path=/mall/cart/**
+          filters:
+            - StripPrefix=1
+        #用户服务
+        - id: user_route
+          uri: lb://mall-user
+          predicates:
+            - Path=/mall/address/**,/mall/user/info/**
+          filters:
+            - StripPrefix=1
+        #商品服务
+        - id: goods_route
+          uri: lb://mall-goods
+          predicates:
+            - Path=/mall/brand/**,/mall/category/**,/mall/skuAttribute/**,/mall/sku/**,/mall/spu/**
+          filters:
+            - StripPrefix=1
+            #指定过滤器
+            #- name: RequestRateLimiter
+            #  args:
+            #    #指定当前限流标识 IP/URI
+            #    key-resolver: '#{@ipKeyResolver}'
+            #    #速率限流值
+            #    redis-rate-limiter.replenishRate: 1
+            #    #能容纳的并发流量总数
+            #    redis-rate-limiter.burstCapacity: 2
+  redis:
+    #host: 192.168.100.130
+    #port: 6379
+    cluster:
+      nodes: 192.168.100.130:7001,192.168.100.130:7002,192.168.100.130:7003,192.168.100.130:7004,192.168.100.130:7005,192.168.100.130:7006
+
+#producer
+rocketmq:
+  name-server: 192.168.100.130:9876
+  producer:
+    group: hotorder-group
+    send-message-timeout: 300000
+    compress-message-body-threshold: 4096
+    max-message-size: 4194304
+    retry-times-when-send-async-failed: 0
+    retry-next-server: true
+    retry-times-when-send-failed: 2
+
+logging:
+  pattern:
+    console: "%msg%n"

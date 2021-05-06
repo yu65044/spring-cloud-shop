@@ -1,0 +1,47 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: mall-seckill
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.130:3306/shop_seckill?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+  redis:
+    host: 192.168.100.130
+    port: 6379
+elaticjob:
+  zookeeper:
+    server-lists: 192.168.100.130:2181
+    namespace: hotsync
+hot:
+  #查询条数
+  size: 100
+  #N小时的数据
+  hour: 1
+  #每小时查询超过max次
+  max: 1
+# ====================MybatisPlus====================
+mybatis-plus:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.gupaoedu.vip.mall.*.model
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mq
+rocketmq:
+  name-server: 192.168.100.130:9876
+
+#日志配置
+logging:
+  pattern:
+    console: "%msg%n"

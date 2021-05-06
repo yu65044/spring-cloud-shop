@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-pay-api" />
+        <module name="mall-common" />
+        <module name="mall-cart-service" />
+        <module name="swagger-json" />
+        <module name="mall-file-service" />
+        <module name="mall-goods-api" />
+        <module name="mall-seckill-service" />
+        <module name="mall-user-api" />
+        <module name="mall-permission-service" />
+        <module name="mall-seckill-api" />
+        <module name="mall-api-gateway" />
+        <module name="mall-order-service" />
+        <module name="mall-order-api" />
+        <module name="mall-dw-api" />
+        <module name="mall-dw-service" />
+        <module name="mall-cart-api" />
+        <module name="mall-page-web" />
+        <module name="mall-pay-service" />
+        <module name="mall-page-api" />
+        <module name="mall-canal-service" />
+        <module name="mall-service-dependency" />
+        <module name="mall-user-service" />
+        <module name="mall-search-service" />
+        <module name="mall-search-api" />
+        <module name="mall-permission-api" />
+        <module name="mall-goods-service" />
+        <module name="mall-search-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gupaoedu-vip-mall" target="1.8" />
+      <module name="mall-api" target="1.8" />
+      <module name="mall-api-gateway" target="1.8" />
+      <module name="mall-canal-service" target="1.8" />
+      <module name="mall-cart-api" target="1.8" />
+      <module name="mall-cart-service" target="1.8" />
+      <module name="mall-common" target="1.8" />
+      <module name="mall-dw-api" target="1.8" />
+      <module name="mall-dw-service" target="1.8" />
+      <module name="mall-file-service" target="1.8" />
+      <module name="mall-gateway" target="1.8" />
+      <module name="mall-goods-api" target="1.8" />
+      <module name="mall-goods-service" target="1.8" />
+      <module name="mall-order-api" target="1.8" />
+      <module name="mall-order-service" target="1.8" />
+      <module name="mall-page-api" target="1.8" />
+      <module name="mall-page-web" target="1.8" />
+      <module name="mall-pay-api" target="1.8" />
+      <module name="mall-pay-service" target="1.8" />
+      <module name="mall-permission-api" target="1.8" />
+      <module name="mall-permission-service" target="1.8" />
+      <module name="mall-search-api" target="1.8" />
+      <module name="mall-search-service" target="1.8" />
+      <module name="mall-search-web" target="1.8" />
+      <module name="mall-seckill-api" target="1.8" />
+      <module name="mall-seckill-service" target="1.8" />
+      <module name="mall-service" target="1.8" />
+      <module name="mall-service-dependency" target="1.8" />
+      <module name="mall-user-api" target="1.8" />
+      <module name="mall-user-service" target="1.8" />
+      <module name="mall-util" target="1.8" />
+      <module name="mall-web" target="1.8" />
+      <module name="swagger-json" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-api-gateway" options="-parameters" />
+      <module name="mall-canal-service" options="-parameters" />
+      <module name="mall-cart-api" options="-parameters" />
+      <module name="mall-cart-service" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-dw-api" options="-parameters" />
+      <module name="mall-dw-service" options="-parameters" />
+      <module name="mall-file-service" options="-parameters" />
+      <module name="mall-goods-api" options="-parameters" />
+      <module name="mall-goods-service" options="-parameters" />
+      <module name="mall-order-api" options="-parameters" />
+      <module name="mall-order-service" options="-parameters" />
+      <module name="mall-page-api" options="-parameters" />
+      <module name="mall-page-web" options="-parameters" />
+      <module name="mall-pay-api" options="-parameters" />
+      <module name="mall-pay-service" options="-parameters" />
+      <module name="mall-permission-api" options="-parameters" />
+      <module name="mall-permission-service" options="-parameters" />
+      <module name="mall-search-api" options="-parameters" />
+      <module name="mall-search-service" options="-parameters" />
+      <module name="mall-search-web" options="-parameters" />
+      <module name="mall-seckill-api" options="-parameters" />
+      <module name="mall-seckill-service" options="-parameters" />
+      <module name="mall-service-dependency" options="-parameters" />
+      <module name="mall-user-api" options="-parameters" />
+      <module name="mall-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

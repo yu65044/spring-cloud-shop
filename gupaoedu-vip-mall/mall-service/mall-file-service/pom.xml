@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mall-service</artifactId>
+        <groupId>com.gupaoedu</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>mall-file-service</artifactId>
+    <description>
+        文件上传和下载
+    </description>
+
+    <dependencies>
+        <!-- Rados Java Api依赖 -->
+        <dependency>
+            <groupId>com.ceph</groupId>
+            <artifactId>rados</artifactId>
+            <version>0.6.0</version>
+        </dependency>
+        <!-- Cephfs 文件系统依赖 -->
+        <dependency>
+            <groupId>com.ceph</groupId>
+            <artifactId>libcephfs</artifactId>
+            <version>0.80.5</version>
+        </dependency>
+
+        <!--swift-->
+        <dependency>
+            <groupId>org.javaswift</groupId>
+            <artifactId>joss</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+    </dependencies>
+</project>

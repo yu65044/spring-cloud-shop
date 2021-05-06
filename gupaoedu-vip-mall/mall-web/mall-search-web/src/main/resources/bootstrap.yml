@@ -1,0 +1,22 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: mall-websearch
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+  thymeleaf:
+    cache: false
+    suffix: .html
+    encoding: UTF-8
+    prefix: classpath:/templates/
+#日志配置
+logging:
+  pattern:
+    console: "%msg%n"

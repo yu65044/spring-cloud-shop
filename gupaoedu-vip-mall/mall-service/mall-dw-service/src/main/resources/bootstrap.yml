@@ -1,0 +1,29 @@
+server:
+  port: 8093
+spring:
+  application:
+    name: mall-dw
+  datasource:
+    driver-class-name: org.apache.calcite.avatica.remote.Driver
+    url: jdbc:avatica:remote:url=http://192.168.100.130:8082/druid/v2/sql/avatica/
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.100.130:8848
+      discovery:
+        #Nacos的注册地址
+        server-addr: 192.168.100.130:8848
+# ====================MybatisPlus====================
+mybatis-plus:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.gupaoedu.vip.mall.*.model
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#日志配置
+logging:
+  pattern:
+    console: "%msg%n"
